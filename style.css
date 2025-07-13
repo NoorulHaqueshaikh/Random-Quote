@@ -1,0 +1,75 @@
+body{
+    height: 100vh;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+    font-family: 'Poppins', 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+    background: hsla(332, 53%, 82%, 1);
+    background: linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E9B7CE", endColorstr="#D3F3F1", GradientType=1 );
+    
+}
+
+.mainCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: .5rem;
+    height: 30rem;
+    width: 40rem;
+    box-shadow: rgb(0,0,0,0.1);
+    margin-bottom: 15rem;
+    background: hsla(208, 67%, 81%, 1);
+    background: linear-gradient(90deg, hsla(208, 67%, 81%, 1) 0%, hsla(37, 65%, 85%, 1) 50%, hsla(301, 65%, 83%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(208, 67%, 81%, 1) 0%, hsla(37, 65%, 85%, 1) 50%, hsla(301, 65%, 83%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(208, 67%, 81%, 1) 0%, hsla(37, 65%, 85%, 1) 50%, hsla(301, 65%, 83%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#AED1EF", endColorstr="#F2DFC1", GradientType=1 );
+
+}
+.button{
+    background-color: #6c63ff;
+    height: 2rem;
+    width: 7rem;
+    box-shadow: rgb(0,0,0,0.1);
+    border-radius: .3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    cursor: pointer;
+    color: #ffffff;
+}
+.textCard{
+    background-color: #ffffff;
+    height: 15rem;
+    width: 35rem;
+    box-shadow: rgb(0,0,0,0.1);
+    border-radius: .5rem;
+    padding: 0px 10px;
+    color: #333333;
+    text-align: center;
+}
+h3{
+    height: .5rem;
+    font-size: 1.5rem;
+    margin-top:3rem;
+    color: #333333;
+}
+@media (max-width: 600px){
+    .mainCard{
+        width: 19rem;
+    }
+    .textCard{
+        width: 16rem;
+    }
+    h3{
+        font-size: 1.3rem;
+        margin-top: 4rem;
+    }
+}
