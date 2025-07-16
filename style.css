@@ -44,6 +44,10 @@ body{
     margin-bottom: 3rem;
     cursor: pointer;
     color: #ffffff;
+    user-select: none;
+}
+.botton:hover{
+    background-color: #5047f7;
 }
 .textCard{
     background-color: #ffffff;
